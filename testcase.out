@@ -1,0 +1,37 @@
+Session altered.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Session altered.
+
+
+52603 rows created.
+
+
+Commit complete.
+
+
+TO_CHAR(   COUNT(*)
+-------- ----------
+20:56:25         52
+
+
+Session altered.
+
+
+TO_CHAR(   COUNT(*)
+-------- ----------
+20:56:25         52
+
+
+PL/SQL procedure successfully completed.
+
+
+TO_CHAR(   COUNT(*)
+-------- ----------
+20:56:26         18
