@@ -1,3 +1,24 @@
+D:\Users\patrickjolliffe\Documents\GitHub\exadata-wrong-results>sqlplus /@jdeeo92 @testcase
+
+SQL*Plus: Release 19.0.0.0.0 - Production on Sat Mar 27 11:44:36 2021
+Version 19.5.0.0.0
+
+Copyright (c) 1982, 2019, Oracle.  All rights reserved.
+
+Last Successful login time: Sat Mar 27 2021 11:44:33 +00:00
+
+Connected to:
+Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.9.0.0.0
+
+
+USERNAME             INST_NAME            HOST_NAME                 SID   SERIAL#  VERSION    STARTED  SPID       OPID  CPID            SADDR            PADDR
+-------------------- -------------------- ------------------------- ----- -------- ---------- -------- ---------- ----- --------------- ---------------- ----------------
+C##PATRICKJOLLIFFE   CGARNET              hkx7f4dbadm01.alpha.lftlt 8012  36303    19.0.0.0.0 20210321 242751     735   4360:25816      00000028A28154D8 00000028A01EB6F0
+
+
+
+
 Session altered.
 
 
@@ -7,31 +28,34 @@ Table dropped.
 Table created.
 
 
-Session altered.
-
-
-52603 rows created.
+79999 rows created.
 
 
 Commit complete.
 
 
-TO_CHAR(   COUNT(*)
--------- ----------
-20:56:25         52
+Session altered.
+
+
+  COUNT(*)
+----------
+      8000
 
 
 Session altered.
 
 
-TO_CHAR(   COUNT(*)
--------- ----------
-20:56:25         52
+  COUNT(*)
+----------
+      8000
 
 
 PL/SQL procedure successfully completed.
 
 
-TO_CHAR(   COUNT(*)
--------- ----------
-20:56:26         18
+  COUNT(*)
+----------
+      3871
+
+Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Version 19.9.0.0.0
