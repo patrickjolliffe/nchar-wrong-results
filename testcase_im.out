@@ -1,0 +1,30 @@
+SQL> @testcase
+
+Table dropped.
+
+
+Table created.
+
+
+79999 rows created.
+
+
+Commit complete.
+
+
+  COUNT(*)
+----------
+      8000
+
+
+PL/SQL procedure successfully completed.
+
+
+  COUNT(*)
+----------
+         0
+
+
+  COUNT(*)
+----------
+      8000
