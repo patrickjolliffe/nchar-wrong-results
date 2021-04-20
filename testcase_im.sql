@@ -14,7 +14,7 @@ select count(*)
    from fcwrnc
    where nc like '1%';
 
-select /* no_inmemory */ count(*) 
+select /*+ no_inmemory */ count(*) 
    from fcwrnc
    where nc like '1%';
 
